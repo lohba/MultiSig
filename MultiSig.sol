@@ -5,7 +5,7 @@ pragma abicoder v2;
 
 contract Wallet {
     address[] public owners;
-    uint limit; // how many owners need to sign off
+    uint limit; // how many owners need to sign of
     
       struct Transfer {
         uint amount;
